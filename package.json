@@ -1,0 +1,33 @@
+{
+	"name": "rollup-plugin-cssnano",
+	"version": "1.0.0",
+	"description": "A Rollup JS plugin for processing CSS files with cssnano",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/pfaciana/rollup-plugin-cssnano.git"
+	},
+	"keywords": [
+		"rollup",
+		"plugin",
+		"cssnano",
+		"postcss",
+		"optimization",
+		"minify",
+		"css"
+	],
+	"author": "Phil Faciana <phil@renderdev.com> (https://renderdev.com/)",
+	"license": "MIT",
+	"homepage": "https://github.com/pfaciana/rollup-plugin-cssnano",
+	"engines": {
+		"node": "^14 || ^16 || >=18.0"
+	},
+	"devDependencies": {
+		"rollup": "^3"
+	},
+	"dependencies": {
+		"cssnano": "^6"
+	}
+}
